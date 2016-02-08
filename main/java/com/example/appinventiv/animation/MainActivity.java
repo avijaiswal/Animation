@@ -21,11 +21,6 @@ private ImageView imageview;
               imageview.startAnimation(animation);
     }
 
-        public void clockwise(View view){
-            ImageView image = (ImageView)findViewById(R.id.imageView);
-            Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.clockwise);
-            image.startAnimation(animation);
-        }
 
 
 
