@@ -27,7 +27,7 @@ private ImageView imageview;
             image.startAnimation(animation);
         }
 
-    
+
 
         public void slide(View view){
             ImageView image = (ImageView)findViewById(R.id.imageView);
