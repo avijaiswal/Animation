@@ -21,12 +21,12 @@ private ImageView imageview;
               imageview.startAnimation(animation);
     }
 
-
-
-
-        public void slide(View view){
+        public void clockwise(View view){
             ImageView image = (ImageView)findViewById(R.id.imageView);
-            Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide);
-            image.startAnimation(animation1);
+            Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.clockwise);
+            image.startAnimation(animation);
         }
+
+
+
 }
