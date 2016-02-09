@@ -20,7 +20,10 @@ private ImageView imageview;
         Animation animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.myanimation);
               imageview.startAnimation(animation);
     }
-    
+
+
+
+
         public void blink(View view){
             ImageView image = (ImageView)findViewById(R.id.imageView);
             Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.blink);
@@ -28,4 +31,9 @@ private ImageView imageview;
         }
 
 
+        public void slide(View view){
+            ImageView image = (ImageView)findViewById(R.id.imageView);
+            Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide);
+            image.startAnimation(animation1);
+        }
 }
