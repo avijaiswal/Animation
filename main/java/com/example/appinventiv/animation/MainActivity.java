@@ -20,16 +20,7 @@ private ImageView imageview;
         Animation animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.myanimation);
               imageview.startAnimation(animation);
     }
-
-
-
-
-        public void blink(View view){
-            ImageView image = (ImageView)findViewById(R.id.imageView);
-            Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.blink);
-            image.startAnimation(animation1);
-        }
-
+    
 
         public void slide(View view){
             ImageView image = (ImageView)findViewById(R.id.imageView);
